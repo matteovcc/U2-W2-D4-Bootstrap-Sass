@@ -9078,7 +9078,7 @@ textarea.form-control-lg {
   background-color: rgb(255, 255, 255);
 }
 #below-hero .img-container {
-  background-color: rgb(232, 190, 197);
+  background-color: rgb(253, 226, 230);
   border-radius: 100px;
 }
 #below-hero img {
@@ -9088,4 +9088,11 @@ textarea.form-control-lg {
   color: rgb(6, 6, 67);
   font-weight: bold;
   margin-bottom: 0;
+}
+#below-hero .subtitle {
+  color: rgba(230, 230, 230, 0.6);
+}
+
+main {
+  background-color: #F5F4F8;
 }
