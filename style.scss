@@ -1,0 +1,50 @@
+@import "_ovverride.scss";
+
+
+#hero{
+    background-color: $primary-color;
+    display: flex;
+    justify-content:center;
+    h1{
+        color:$hero-text-color;
+    }
+    p{
+        color:$hero-p-color;
+    }
+    #first-btn{
+        background-color:$btn-bg-color;
+        border:none;
+        color:$hero-text-color;
+    }
+    #second-btn{
+        background-color:$hero-text-color;
+        border:none;
+    }
+}
+
+#below-hero{
+    background-color:$hero-text-color;
+    .img-container{
+        background-color:$second-bg-color;
+        border-radius:100px;
+    }
+    img{
+        text-align: center;
+
+    }
+    .headings{
+        color:$secondary-color;
+        font-weight:bold;
+        margin-bottom:0;
+    }
+    .subtitle{
+        color:$hero-p-color;
+    }
+}
+
+main{
+    background-color:$bg-hero;
+}
+
+
+
